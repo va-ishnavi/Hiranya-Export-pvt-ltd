@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hiranya Export Pvt Ltd</title>
+
+    <link rel="icon" href="images/nav-logo.png">
+
+    <!-- Tailwind CSS -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .slide {
+            animation: fade 1s ease;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: scale(1.05);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-white">
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
+
+        <nav class="bg-white/95 backdrop-blur-lg shadow-lg">
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="flex justify-between items-center h-20">
+
+                    <!-- Logo -->
+
+                    <a href="index.html" class="flex items-center gap-3">
+
+                        <img src="images/nav-logo.png" class="h-32 w-auto object-contain" alt="Hiranya Export">
+
+                    </a>
+
+                    <!-- Desktop Menu -->
+
+                    <ul class="hidden lg:flex items-center gap-9 font-medium">
+
+                        <li><a href="index.html" class="text-gray-800 hover:text-yellow-600 duration-300">Home</a></li>
+
+                        <li><a href="about.html" class="text-gray-800 hover:text-yellow-600 duration-300">About</a></li>
+
+                        <li><a href="products.html"
+                                class="text-gray-800 hover:text-yellow-600 duration-300">Products</a></li>
+
+                        <li><a href="whyus.html" class="text-gray-800 hover:text-yellow-600 duration-300">Why Us</a>
+                        </li>
+
+                        <li><a href="contact.html" class="text-gray-800 hover:text-yellow-600 duration-300">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Button -->
+
+                    <div class="hidden lg:block">
+
+                        <a href="contact.html"
+                            class="bg-yellow-500 hover:bg-blue-900 text-white px-7 py-3 rounded-full font-semibold transition duration-300">
+
+                            Get Quote
+
+                        </a>
+
+                    </div>
+
+                    <!-- Mobile Button -->
+
+                    <button id="menu-btn" class="lg:hidden">
+
+                        <svg class="w-9 h-9 text-blue-900" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+
+        <div id="mobile-menu"
+            class="fixed top-0 right-[-100%] w-72 h-screen bg-blue-950 transition-all duration-500 shadow-2xl">
+
+            <div class="p-8">
+
+                <button id="close-menu" class="text-white text-4xl mb-10">
+
+                    &times;
+
+                </button>
+
+                <ul class="space-y-7 text-lg">
+
+                    <li><a href="index.html" class="text-white hover:text-yellow-400">Home</a></li>
+
+                    <li><a href="about.html" class="text-white hover:text-yellow-400">About</a></li>
+
+                    <li><a href="products.html" class="text-white hover:text-yellow-400">Products</a></li>
+
+                    <li><a href="whyus.html" class="text-white hover:text-yellow-400">Why Us</a></li>
+
+                    <li><a href="contact.html" class="text-white hover:text-yellow-400">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--WHY US HERO-->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0">
+
+            <img src="why-img/why-hero.jpg" class="w-full h-full object-cover" alt="Why Choose Hiranya Export">
+
+            <div class="absolute inset-0 bg-[#041B45]/45"></div>
+
+            <div class="absolute inset-0 bg-gradient-to-r from-[#041B45]/60 via-[#041B45]/30 to-[#041B45]/80"></div>
+
+        </div>
+
+        <div class="absolute -top-40 -left-32 w-[420px] h-[420px] bg-[#D4A017]/20 rounded-full blur-3xl animate-pulse">
+        </div>
+
+        <div class="absolute bottom-0 right-0 w-[380px] h-[380px] bg-blue-500/20 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+
+            <span
+                class="inline-flex items-center gap-3 bg-[#D4A017] text-white px-7 py-3 rounded-full text-sm font-semibold tracking-[3px] uppercase shadow-xl mt-10">
+
+                <i class="fa-solid fa-award"></i>
+
+                Why Choose Hiranya Export
+
+            </span>
+            <h1 class="mt-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
+
+                Delivering Excellence
+
+                <span class="block mt-2 text-[#D4A017]">
+
+                    Beyond Expectations
+
+                </span>
+
+            </h1>
+
+            <p class="max-w-3xl mx-auto mt-8 text-lg md:text-xl text-gray-200 leading-8">
+
+                At Hiranya Export Pvt Ltd, we combine premium-quality agricultural products,
+                ethical sourcing, international packaging standards, and reliable logistics
+                to build long-lasting partnerships with buyers across the globe.
+
+            </p>
+
+            <!-- Buttons -->
+
+            <div class="flex flex-wrap justify-center gap-5 mt-12">
+
+                <a href="contact.html"
+                    class="border-2 border-white text-white hover:bg-white hover:text-[#041B45] px-8 py-4 rounded-full font-semibold transition duration-500">
+
+                    Contact Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--WHY CHOOSE HIRANYA-->
+    <section class="relative py-28 overflow-hidden">
+
+        <div class="absolute inset-0">
+
+            <img src="images/bg3.png" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#041B45]/45"></div>
+
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="text-center max-w-4xl mx-auto">
+
+                <span
+                    class="bg-[#D4A017] text-white px-7 py-3 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                    Why Buyers Trust Us
+
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-white mt-8">
+
+                    More Than An Exporter
+
+                </h2>
+
+                <p class="text-gray-300 mt-8 text-lg leading-8">
+
+                    We deliver premium agricultural products backed by strict quality
+                    control, reliable logistics, and customer-focused service that
+                    international buyers can depend on.
+
+                </p>
+
+            </div>
+
+            <!-- Premium Floating Cards -->
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mt-20">
+
+
+                <div
+                    class="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-[35px] p-10 text-center hover:bg-[#D4A017] duration-500 hover:-translate-y-5">
+
+                    <div
+                        class="w-24 h-24 mx-auto rounded-full bg-white flex items-center justify-center text-[#D4A017] text-4xl group-hover:bg-[#041B45] group-hover:text-white duration-500">
+
+                        <i class="fa-solid fa-seedling"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-white mt-8">
+
+                        Farm Fresh
+
+                    </h3>
+
+                    <p class="text-gray-300 mt-5 group-hover:text-white">
+
+                        Fresh products directly sourced from trusted farms.
+
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="group bg-white rounded-[35px] p-10 text-center hover:bg-[#041B45] duration-500 hover:-translate-y-5">
+
+                    <div
+                        class="w-24 h-24 mx-auto rounded-full bg-[#D4A017] flex items-center justify-center text-white text-4xl">
+
+                        <i class="fa-solid fa-medal"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#041B45] group-hover:text-white mt-8">
+
+                        Premium Quality
+
+                    </h3>
+
+                    <p class="text-gray-600 group-hover:text-gray-300 mt-5">
+
+                        Every shipment passes strict quality inspection.
+
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-[35px] p-10 text-center hover:bg-[#D4A017] duration-500 hover:-translate-y-5">
+
+                    <div
+                        class="w-24 h-24 mx-auto rounded-full bg-white flex items-center justify-center text-[#D4A017] text-4xl group-hover:bg-[#041B45] group-hover:text-white">
+
+                        <i class="fa-solid fa-box"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-white mt-8">
+
+                        Export Packing
+
+                    </h3>
+
+                    <p class="text-gray-300 group-hover:text-white mt-5">
+
+                        Strong packaging for safe international transportation.
+
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="group bg-white rounded-[35px] p-10 text-center hover:bg-[#041B45] duration-500 hover:-translate-y-5">
+
+                    <div
+                        class="w-24 h-24 mx-auto rounded-full bg-[#D4A017] flex items-center justify-center text-white text-4xl">
+
+                        <i class="fa-solid fa-earth-asia"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#041B45] group-hover:text-white mt-8">
+
+                        Worldwide Export
+
+                    </h3>
+
+                    <p class="text-gray-600 group-hover:text-gray-300 mt-5">
+
+                        Reliable global delivery with complete customer support.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Highlight -->
+
+            <div
+                class="mt-20 bg-gradient-to-r from-[#D4A017] to-yellow-500 rounded-[40px] p-10 lg:p-14 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-2xl">
+
+                <div>
+
+                    <h3 class="text-4xl font-bold text-white">
+
+                        Premium Agricultural Exports
+
+                    </h3>
+
+                    <p class="text-yellow-100 mt-4 text-lg">
+
+                        Quality Products • Safe Packaging • Timely Delivery
+
+                    </p>
+
+                </div>
+
+                <a href="mail:  hiranyaexportsprt@gamil.com "
+                    class="bg-white text-[#041B45] px-10 py-5 rounded-full font-bold hover:scale-105 duration-300">
+
+                    Request A Mail →
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--OUR STRENGTHS-->
+    <section class="relative py-28 overflow-hidden">
+        <div class="absolute inset-0 bg-white/92"></div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="text-center">
+
+                <span
+                    class="inline-block px-6 py-2 bg-[#D4A017] text-white rounded-full tracking-[4px] uppercase text-sm font-semibold">
+
+                    Our Strength
+
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-[#041B45] mt-8">
+
+                    Built On Quality,
+
+                    <span class="text-[#D4A017]">
+
+                        Driven By Trust
+
+                    </span>
+
+                </h2>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-20 mt-24 items-center">
+
+                <!-- Left -->
+
+                <div>
+
+                    <img src="why-img/strength.png" class="rounded-[35px] shadow-2xl hover:scale-105 duration-700">
+
+                </div>
+
+                <!-- Right -->
+
+                <div class="relative">
+
+                    <!-- Vertical Line -->
+
+                    <div class="absolute left-5 top-0 h-full w-1 bg-[#D4A017]/30 rounded-full"></div>
+
+                    <!-- Item -->
+
+                    <div class="relative flex gap-8 mb-14">
+
+                        <div class="w-10 h-10 rounded-full bg-[#D4A017] border-4 border-white shadow-xl z-10"></div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-[#041B45]">
+
+                                Direct Farm Sourcing
+
+                            </h3>
+
+                            <p class="mt-4 text-gray-600 leading-8">
+
+                                We work closely with trusted farmers to ensure every
+                                shipment begins with fresh, carefully selected produce.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="relative flex gap-8 mb-14">
+
+                        <div class="w-10 h-10 rounded-full bg-[#D4A017] border-4 border-white shadow-xl z-10"></div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-[#041B45]">
+
+                                Export Quality Standards
+
+                            </h3>
+
+                            <p class="mt-4 text-gray-600 leading-8">
+
+                                Each product is inspected and packed according to
+                                international export requirements.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="relative flex gap-8 mb-14">
+
+                        <div class="w-10 h-10 rounded-full bg-[#D4A017] border-4 border-white shadow-xl z-10"></div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-[#041B45]">
+
+                                Reliable Logistics
+
+                            </h3>
+
+                            <p class="mt-4 text-gray-600 leading-8">
+
+                                Our logistics network ensures products reach customers
+                                safely and on schedule.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="relative flex gap-8">
+
+                        <div class="w-10 h-10 rounded-full bg-[#D4A017] border-4 border-white shadow-xl z-10"></div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-[#041B45]">
+
+                                Long-Term Partnerships
+
+                            </h3>
+
+                            <p class="mt-4 text-gray-600 leading-8">
+
+                                We believe in building lasting relationships through
+                                honesty, consistency, and dependable service.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--OUR EXPORT PROCESS-->
+    <section class="relative py-28 overflow-hidden">
+
+        <div class="absolute inset-0 bg-[#041B45]/70"></div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center max-w-3xl mx-auto">
+
+                <span
+                    class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[4px] uppercase text-sm font-semibold">
+
+                    Export Process
+
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-white mt-8">
+
+                    From Farm To
+
+                    <span class="text-[#D4A017]">
+
+                        Global Markets
+
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-300 mt-8 leading-8">
+
+                    Every shipment follows a carefully planned process to ensure
+                    freshness, quality, safety, and timely international delivery.
+
+                </p>
+
+            </div>
+
+            <!-- Timeline -->
+
+            <div class="hidden lg:block mt-24">
+
+                <div class="relative">
+
+                    <div class="absolute left-0 right-0 top-12 h-1 bg-white/20"></div>
+
+                    <div class="grid grid-cols-5 gap-10 relative">
+
+                        <!-- Step -->
+
+                        <div class="text-center">
+
+                            <div
+                                class="w-24 h-24 mx-auto rounded-full bg-[#D4A017] flex items-center justify-center text-4xl text-white shadow-xl">
+
+                                🌱
+
+                            </div>
+
+                            <h3 class="text-white text-2xl font-bold mt-8">
+
+                                Farm Sourcing
+
+                            </h3>
+
+                            <p class="text-gray-300 mt-4 leading-7">
+
+                                Carefully selected from trusted Indian farms.
+
+                            </p>
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <div
+                                class="w-24 h-24 mx-auto rounded-full bg-white text-[#041B45] flex items-center justify-center text-4xl shadow-xl">
+
+                                🔍
+
+                            </div>
+
+                            <h3 class="text-white text-2xl font-bold mt-8">
+
+                                Inspection
+
+                            </h3>
+
+                            <p class="text-gray-300 mt-4">
+
+                                Strict quality checks before packing.
+
+                            </p>
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <div
+                                class="w-24 h-24 mx-auto rounded-full bg-[#D4A017] flex items-center justify-center text-4xl text-white shadow-xl">
+
+                                📦
+
+                            </div>
+
+                            <h3 class="text-white text-2xl font-bold mt-8">
+
+                                Packaging
+
+                            </h3>
+
+                            <p class="text-gray-300 mt-4">
+
+                                Hygienic export-grade packing.
+
+                            </p>
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <div
+                                class="w-24 h-24 mx-auto rounded-full bg-white text-[#041B45] flex items-center justify-center text-4xl shadow-xl">
+
+                                🚢
+
+                            </div>
+
+                            <h3 class="text-white text-2xl font-bold mt-8">
+
+                                Shipping
+
+                            </h3>
+
+                            <p class="text-gray-300 mt-4">
+
+                                Secure worldwide transportation.
+
+                            </p>
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <div
+                                class="w-24 h-24 mx-auto rounded-full bg-[#D4A017] flex items-center justify-center text-4xl text-white shadow-xl">
+
+                                🤝
+
+                            </div>
+
+                            <h3 class="text-white text-2xl font-bold mt-8">
+
+                                Delivery
+
+                            </h3>
+
+                            <p class="text-gray-300 mt-4">
+
+                                On-time delivery with complete support.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="lg:hidden mt-16 space-y-8">
+
+                <div class="flex gap-5 items-start">
+
+                    <div class="w-16 h-16 rounded-full bg-[#D4A017] flex items-center justify-center text-2xl">🌱</div>
+
+                    <div>
+
+                        <h3 class="text-white text-xl font-bold">Farm Sourcing</h3>
+
+                        <p class="text-gray-300 mt-2">Fresh produce sourced directly from trusted farms.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="flex gap-5 items-start">
+
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center text-2xl">🔍</div>
+
+                    <div>
+
+                        <h3 class="text-white text-xl font-bold">Quality Inspection</h3>
+
+                        <p class="text-gray-300 mt-2">Every batch is inspected before export.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="flex gap-5 items-start">
+
+                    <div class="w-16 h-16 rounded-full bg-[#D4A017] flex items-center justify-center text-2xl">📦</div>
+
+                    <div>
+
+                        <h3 class="text-white text-xl font-bold">Packaging & Shipping</h3>
+
+                        <p class="text-gray-300 mt-2">Safe packing and reliable international delivery.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--GLOBAL PRESENCE-->
+    <section class="relative py-28 overflow-hidden">
+        <div class="absolute inset-0">
+
+            <img src="why-img/global.png" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#041B45]/50"></div>
+
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+                <!-- LEFT -->
+
+                <div>
+
+                    <span
+                        class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                        Global Presence
+
+                    </span>
+
+                    <h2 class="text-4xl md:text-6xl font-bold text-white leading-tight mt-8">
+
+                        Connecting Indian Farms
+
+                        <span class="block text-[#D4A017] mt-2">
+
+                            With The World
+
+                        </span>
+
+                    </h2>
+
+                    <p class="text-gray-300 text-lg leading-9 mt-8">
+
+                        Hiranya Export Pvt Ltd supplies premium-quality agricultural
+                        products sourced from trusted Indian farms. With reliable
+                        logistics, export-grade packaging, and strict quality
+                        standards, we ensure every shipment reaches global buyers
+                        fresh, safe, and on time.
+
+                    </p>
+
+                    <a href="contact.html"
+                        class="inline-flex items-center gap-3 mt-12 bg-[#D4A017] hover:bg-yellow-500 text-white px-9 py-4 rounded-full font-semibold transition duration-500 hover:scale-105">
+
+                        Start Your Import Journey
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div class="relative h-[650px] hidden lg:block">
+
+                    <!-- Circle -->
+
+                    <div
+                        class="absolute top-10 right-10 w-52 bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20 hover:scale-105 duration-500">
+
+                        <h3 class="text-[#D4A017] text-5xl font-bold">
+
+                            100%
+
+                        </h3>
+
+                        <p class="text-white mt-3">
+
+                            Fresh Agricultural Products
+
+                        </p>
+
+                    </div>
+
+                    <!-- Circle -->
+
+                    <div
+                        class="absolute top-56 left-0 w-60 bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20 hover:scale-105 duration-500">
+
+                        <h3 class="text-[#D4A017] text-5xl font-bold">
+
+                            24×7
+
+                        </h3>
+
+                        <p class="text-white mt-3">
+
+                            Customer Assistance
+
+                        </p>
+
+                    </div>
+
+                    <!-- Circle -->
+
+                    <div
+                        class="absolute bottom-16 right-16 w-56 bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20 hover:scale-105 duration-500">
+
+                        <h3 class="text-[#D4A017] text-5xl font-bold">
+
+                            Safe
+
+                        </h3>
+
+                        <p class="text-white mt-3">
+
+                            Export Packaging
+
+                        </p>
+
+                    </div>
+
+                    <!-- Circle -->
+
+                    <div
+                        class="absolute bottom-0 left-20 w-56 bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20 hover:scale-105 duration-500">
+
+                        <h3 class="text-[#D4A017] text-5xl font-bold">
+
+                            On Time
+
+                        </h3>
+
+                        <p class="text-white mt-3">
+
+                            Worldwide Delivery
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--FAQ SECTION -->
+    <section class="relative py-28 overflow-hidden">
+        <div class="absolute inset-0">
+
+            <img src="abt-img/bg2.png" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#041B45]/40"></div>
+
+        </div>
+
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-[#D4A017]/20 rounded-full blur-3xl"></div>
+
+        <div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-blue-500/20 rounded-full blur-3xl"></div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- LEFT -->
+
+                <div>
+
+                    <span
+                        class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                        Frequently Asked Questions
+
+                    </span>
+
+                    <h2 class="text-4xl md:text-6xl font-bold text-white mt-8">
+
+                        Have Questions?
+
+                        <span class="block text-[#D4A017]">
+
+                            We've Got Answers.
+
+                        </span>
+
+                    </h2>
+
+                    <p class="text-gray-300 mt-8 leading-8">
+
+                        Find answers to the most common questions about our
+                        agricultural products, export process, packaging,
+                        shipping, and international business services.
+
+                    </p>
+
+                    <a href="tel: 7867993333"
+                        class="inline-flex items-center gap-3 mt-10 bg-[#D4A017] hover:bg-yellow-500 px-8 py-4 rounded-full text-white font-semibold transition duration-300 hover:scale-105">
+
+                        Contact Our Team
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div class="space-y-5">
+
+                    <!-- FAQ -->
+
+                    <details
+                        class="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden">
+
+                        <summary
+                            class="flex justify-between items-center cursor-pointer px-8 py-6 text-white font-semibold text-lg">
+
+                            Which products do you export?
+
+                            <i class="fa-solid fa-plus group-open:rotate-45 duration-300"></i>
+
+                        </summary>
+
+                        <div class="px-8 pb-6 text-gray-300 leading-8">
+
+                            We specialize in exporting premium Big Onion, Small Onion, and Fresh Coconut sourced
+                            directly from trusted Indian farms.
+
+                        </div>
+
+                    </details>
+
+                    <!-- FAQ -->
+
+                    <details
+                        class="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden">
+
+                        <summary
+                            class="flex justify-between items-center cursor-pointer px-8 py-6 text-white font-semibold text-lg">
+
+                            How do you ensure product quality?
+
+                            <i class="fa-solid fa-plus group-open:rotate-45 duration-300"></i>
+
+                        </summary>
+
+                        <div class="px-8 pb-6 text-gray-300 leading-8">
+
+                            Every shipment undergoes careful quality inspection, hygienic handling, and export-grade
+                            packaging before dispatch.
+
+                        </div>
+
+                    </details>
+
+                    <!-- FAQ -->
+
+                    <details
+                        class="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden">
+
+                        <summary
+                            class="flex justify-between items-center cursor-pointer px-8 py-6 text-white font-semibold text-lg">
+
+                            Do you provide international shipping?
+
+                            <i class="fa-solid fa-plus group-open:rotate-45 duration-300"></i>
+
+                        </summary>
+
+                        <div class="px-8 pb-6 text-gray-300 leading-8">
+
+                            Yes. We work with reliable logistics partners to ensure secure and timely worldwide
+                            delivery.
+
+                        </div>
+
+                    </details>
+
+                    <!-- FAQ -->
+
+                    <details
+                        class="group bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden">
+
+                        <summary
+                            class="flex justify-between items-center cursor-pointer px-8 py-6 text-white font-semibold text-lg">
+
+                            Can I request custom packaging?
+
+                            <i class="fa-solid fa-plus group-open:rotate-45 duration-300"></i>
+
+                        </summary>
+
+                        <div class="px-8 pb-6 text-gray-300 leading-8">
+
+                            Yes. We can provide export packaging according to customer requirements while maintaining
+                            product freshness and safety.
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom CTA -->
+
+            <div
+                class="mt-24 bg-gradient-to-r from-[#D4A017] to-yellow-500 rounded-[40px] p-12 lg:p-16 text-center shadow-2xl">
+
+                <h3 class="text-4xl md:text-5xl font-bold text-white">
+
+                    Ready To Grow Your Business With Us?
+
+                </h3>
+
+                <p class="text-yellow-100 max-w-3xl mx-auto mt-6 text-lg leading-8">
+
+                    Partner with Hiranya Export Pvt Ltd for premium agricultural products, dependable export solutions,
+                    and exceptional customer service.
+
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-5 mt-10">
+
+                    <a href="contact.html"
+                        class="bg-white text-[#041B45] hover:bg-[#041B45] hover:text-white px-8 py-4 rounded-full font-semibold transition duration-300">
+
+                        Request For Order
+
+                    </a>
+
+                    <a href="products.html"
+                        class="border-2 border-white text-white hover:bg-white hover:text-[#041B45] px-8 py-4 rounded-full font-semibold transition duration-300">
+
+                        View Products
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="relative bg-[#03153A] text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <div
+                class="absolute w-[500px] h-[500px] bg-white/20 rounded-full blur-3xl top-10 left-1/2 -translate-x-1/2">
+            </div>
+            <div class="absolute w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-3xl bottom-10 right-10"></div>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto px-6 py-20 text-center">
+
+            <!-- LOGO -->
+            <img src="images/nav-logo.png" class="h-32 mx-auto mb-4 ">
+
+            <!-- COMPANY NAME -->
+            <h2 class="text-3xl md:text-4xl font-bold">
+                Hiranya Export Pvt Ltd
+            </h2>
+
+            <p class="text-gray-300 mt-4 max-w-2xl mx-auto leading-7">
+                Premium Agricultural Export Company from India delivering high-quality
+                Big Onion, Small Onion, and Fresh Coconut across global markets with trust and excellence.
+            </p>
+
+            <!-- CONTACT ICONS -->
+            <div class="flex flex-wrap justify-center gap-10 mt-10 text-gray-300">
+
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-phone text-[#D4A017] text-2xl"></i>
+                    <span class="mt-2">
+                        <a href="tel:+917867993333" class="hover:text-[#D4A017]">
+                            +91 78679 93333
+                        </a>
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-envelope text-[#D4A017] text-2xl"></i>
+                    <span class="mt-2">
+                        <a href="mailto:hiranyaexportsprt@gmail.com" class="hover:text-[#D4A017]">
+                            hiranyaexportsprt@gmail.com
+                        </a>
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-location-dot text-[#D4A017] text-2xl"></i>
+                    <span class="mt-2 max-w-xs">
+                        No.752, Thirukkattalai, Pudukkottai, Tamil Nadu
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- LINKS -->
+            <div class="flex flex-wrap justify-center gap-6 mt-10 text-gray-300">
+
+                <a href="index.html" class="hover:text-[#D4A017]">Home</a>
+                <a href="about.html" class="hover:text-[#D4A017]">About</a>
+                <a href="products.html" class="hover:text-[#D4A017]">Products</a>
+                <a href="whyus.html" class="hover:text-[#D4A017]">Why Us</a>
+                <a href="contact.html" class="hover:text-[#D4A017]">Contact</a>
+
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="flex justify-center gap-5 mt-10">
+
+                <a href="#"
+                    class="w-12 h-12 rounded-full bg-white/10 hover:bg-[#D4A017] flex items-center justify-center transition">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#"
+                    class="w-12 h-12 rounded-full bg-white/10 hover:bg-[#D4A017] flex items-center justify-center transition">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#"
+                    class="w-12 h-12 rounded-full bg-white/10 hover:bg-[#D4A017] flex items-center justify-center transition">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://wa.me/917867993333"
+                    class="w-12 h-12 rounded-full bg-[#25D366] hover:scale-110 flex items-center justify-center transition">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="border-t border-white/10 mt-12 pt-6">
+
+                <p class="text-gray-400 text-sm">
+                    © 2026 Hiranya Export Pvt Ltd. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        const menu = document.getElementById("mobile-menu");
+        const open = document.getElementById("menu-btn");
+        const close = document.getElementById("close-menu");
+
+        open.onclick = () => {
+            menu.style.right = "0";
+        }
+
+        close.onclick = () => {
+            menu.style.right = "-100%";
+        }
+
+    </script>
+
+</body>
+
+</html>

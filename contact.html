@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hiranya Export Pvt Ltd</title>
+
+    <link rel="icon" href="images/nav-logo.png">
+
+    <!-- Tailwind CSS -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .slide {
+            animation: fade 1s ease;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: scale(1.05);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-white">
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
+
+        <nav class="bg-white/95 backdrop-blur-lg shadow-lg">
+            <div class="max-w-7xl mx-auto px-6">
+
+                <div class="flex justify-between items-center h-20">
+
+                    <!-- Logo -->
+
+                    <a href="index.html" class="flex items-center gap-3">
+
+                        <img src="images/nav-logo.png" class="h-32 w-auto object-contain" alt="Hiranya Export">
+
+                    </a>
+
+                    <!-- Desktop Menu -->
+
+                    <ul class="hidden lg:flex items-center gap-9 font-medium">
+
+                        <li><a href="index.html" class="text-gray-800 hover:text-yellow-600 duration-300">Home</a></li>
+
+                        <li><a href="about.html" class="text-gray-800 hover:text-yellow-600 duration-300">About</a></li>
+
+                        <li><a href="products.html"
+                                class="text-gray-800 hover:text-yellow-600 duration-300">Products</a></li>
+
+                        <li><a href="whyus.html" class="text-gray-800 hover:text-yellow-600 duration-300">Why Us</a>
+                        </li>
+
+                        <li><a href="contact.html" class="text-gray-800 hover:text-yellow-600 duration-300">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Button -->
+
+                    <div class="hidden lg:block">
+
+                        <a href="contact.html"
+                            class="bg-yellow-500 hover:bg-blue-900 text-white px-7 py-3 rounded-full font-semibold transition duration-300">
+
+                            Get Quote
+
+                        </a>
+
+                    </div>
+
+                    <!-- Mobile Button -->
+
+                    <button id="menu-btn" class="lg:hidden">
+
+                        <svg class="w-9 h-9 text-blue-900" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+
+        <div id="mobile-menu"
+            class="fixed top-0 right-[-100%] w-72 h-screen bg-blue-950 transition-all duration-500 shadow-2xl">
+
+            <div class="p-8">
+
+                <button id="close-menu" class="text-white text-4xl mb-10">
+
+                    &times;
+
+                </button>
+
+                <ul class="space-y-7 text-lg">
+
+                    <li><a href="index.html" class="text-white hover:text-yellow-400">Home</a></li>
+
+                    <li><a href="about.html" class="text-white hover:text-yellow-400">About</a></li>
+
+                    <li><a href="products.html" class="text-white hover:text-yellow-400">Products</a></li>
+
+                    <li><a href="whyus.html" class="text-white hover:text-yellow-400">Why Us</a></li>
+
+                    <li><a href="contact.html" class="text-white hover:text-yellow-400">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--CONTACT HERO-->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+
+        <div class="absolute inset-0">
+
+            <img src="abt-img/hero-bg.jpg" alt="Contact Hero" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-[#041B45]/40"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-[#041B45]/55 via-[#041B45]/40 to-[#041B45]/80"></div>
+
+        </div>
+
+        <div class="absolute -top-40 -left-40 w-[450px] h-[450px] bg-[#D4A017]/20 rounded-full blur-3xl"></div>
+
+        <div class="absolute -bottom-40 -right-40 w-[450px] h-[450px] bg-blue-500/20 rounded-full blur-3xl"></div>
+
+        <!-- Content -->
+
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+
+            <span
+                class="inline-flex items-center gap-3 bg-[#D4A017] text-white px-7 py-3 rounded-full text-sm font-semibold tracking-[3px] uppercase shadow-xl">
+
+                <i class="fa-solid fa-envelope-open-text"></i>
+
+                Contact Hiranya Export
+
+            </span>
+
+            <h1 class="mt-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
+
+                Let's Grow Your
+
+                <span class="block text-[#D4A017] mt-2">
+
+                    Business Together
+
+                </span>
+
+            </h1>
+
+            <p class="max-w-3xl mx-auto mt-8 text-lg md:text-xl text-gray-200 leading-8">
+
+                Whether you're looking for premium-quality Big Onions, Small Onions,
+                or Fresh Coconuts, our team is ready to provide reliable export
+                solutions, competitive pricing, and timely worldwide delivery.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--CONTACT INFORMATION-->
+    <section class="relative py-24 overflow-hidden">
+
+        <div class="absolute inset-0 bg-white/90"></div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+
+            <div class="text-center max-w-3xl mx-auto mb-20">
+
+                <span
+                    class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                    Get In Touch
+
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-[#041B45] mt-8">
+
+                    We'd Love To Hear
+
+                    <span class="text-[#D4A017]">
+
+                        From You
+
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-600 mt-6 text-lg leading-8">
+
+                    Contact us for product enquiries, export partnerships, quotations,
+                    and international business opportunities.
+
+                </p>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+                <!-- Company Information -->
+
+                <div class="bg-white rounded-[35px] shadow-2xl overflow-hidden">
+
+                    <div class="bg-[#041B45] p-10">
+
+                        <h3 class="text-3xl font-bold text-white">
+
+                            Hiranya Export Pvt Ltd
+
+                        </h3>
+
+                        <p class="text-yellow-300 mt-3">
+
+                            Quality Produce. Global Trust.
+
+                        </p>
+
+                    </div>
+
+                    <div class="p-10 space-y-8">
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-full bg-[#D4A017] text-white flex items-center justify-center text-xl">
+
+                                <i class="fa-solid fa-user"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-[#041B45] text-xl">
+
+                                    Contact Person
+
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+
+                                    Rajesh Karmegam
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-full bg-[#041B45] text-white flex items-center justify-center text-xl">
+
+                                <i class="fa-solid fa-phone"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-[#041B45] text-xl">
+
+                                    Phone Number
+
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+
+                                    +91 78679 93333
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-full bg-[#D4A017] text-white flex items-center justify-center text-xl">
+
+                                <i class="fa-solid fa-envelope"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-[#041B45] text-xl">
+
+                                    Email Address
+
+                                </h4>
+
+                                <p class="text-gray-600 mt-2 break-all">
+
+                                    hiranyaexportsprt@gmail.com
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-full bg-[#041B45] text-white flex items-center justify-center text-xl">
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-[#041B45] text-xl">
+
+                                    Office Address
+
+                                </h4>
+
+                                <p class="text-gray-600 mt-2 leading-7">
+
+                                    No.752, Thirukkattalai,<br>
+                                    Mettupatti,
+                                    Alangudi,<br>
+                                    Pudukkottai,
+                                    Tamil Nadu - 622303
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-full bg-[#D4A017] text-white flex items-center justify-center text-xl">
+
+                                <i class="fa-solid fa-file-invoice"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-[#041B45] text-xl">
+
+                                    GST Number
+
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+
+                                    33AAACH3549J1ZF
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div>
+
+                    <img src="images/Hiranya Export - logo.png"
+                        class="rounded-[35px] shadow-2xl hover:scale-105 duration-700">
+
+                    <div class="mt-10">
+
+                        <h3 class="text-4xl font-bold text-[#041B45]">
+
+                            Ready To Start Your Import Journey?
+
+                        </h3>
+
+                        <p class="text-gray-600 mt-6 leading-8">
+
+                            Whether you need fresh Big Onions, Small Onions, or
+                            Premium Coconuts, our experienced export team is ready
+                            to provide customized quotations, secure packaging, and
+                            reliable international delivery.
+
+                        </p>
+
+                        <a href="#contact-form"
+                            class="inline-flex mt-10 bg-[#D4A017] hover:bg-[#041B45] text-white px-8 py-4 rounded-full font-semibold duration-300">
+
+                            Send Your Enquiry
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--CONTACT FORM-->
+    <section id="contact-form" class="relative py-28 overflow-hidden">
+        <div class="absolute inset-0">
+
+            <img src="why-img/contact.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#041B45]/80"></div>
+
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-16">
+
+                <span
+                    class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                    Send Enquiry
+
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-white mt-8">
+
+                    Let's Start A Business
+
+                    <span class="block text-[#D4A017]">
+
+                        Conversation
+
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-300 max-w-3xl mx-auto mt-6 leading-8">
+
+                    Fill out the enquiry form below and our team will get back to you
+                    with the best quotation and export assistance.
+
+                </p>
+
+            </div>
+
+            <div class="max-w-5xl mx-auto">
+
+                <form class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[35px] p-8 md:p-12 shadow-2xl">
+
+                    <div class="grid md:grid-cols-2 gap-8">
+
+                        <div>
+
+                            <label class="text-white font-medium mb-2 block">
+
+                                Full Name
+
+                            </label>
+
+                            <input type="text" placeholder="Enter your name"
+                                class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-4 text-white placeholder-gray-300 focus:border-[#D4A017] focus:outline-none"
+                                required>
+
+                        </div>
+
+                        <div>
+
+                            <label class="text-white font-medium mb-2 block">
+
+                                Company Name
+
+                            </label>
+
+                            <input type="text" placeholder="Your company"
+                                class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-4 text-white placeholder-gray-300 focus:border-[#D4A017] focus:outline-none"
+                                required>
+
+                        </div>
+
+                        <div>
+
+                            <label class="text-white font-medium mb-2 block">
+
+                                Email Address
+
+                            </label>
+
+                            <input type="email" placeholder="Enter email"
+                                class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-4 text-white placeholder-gray-300 focus:border-[#D4A017] focus:outline-none"
+                                required>
+
+                        </div>
+
+                        <div>
+
+                            <label class="text-white font-medium mb-2 block">
+
+                                Phone Number
+
+                            </label>
+
+                            <input type="tel" placeholder="+91 XXXXX XXXXX"
+                                class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-4 text-white placeholder-gray-300 focus:border-[#D4A017] focus:outline-none"
+                                required>
+
+                        </div>
+
+                        <div class="md:col-span-2">
+
+                            <label class="text-white font-medium mb-2 block">
+
+                                Product Interested In
+
+                            </label>
+
+                            <select
+                                class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-4 text-white focus:border-[#D4A017] focus:outline-none"
+                                required>
+
+                                <option class="text-black">Big Onion</option>
+
+                                <option class="text-black">Small Onion</option>
+
+                                <option class="text-black">Fresh Coconut</option>
+
+                                <option class="text-black">Multiple Products</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="md:col-span-2">
+
+                            <label class="text-white font-medium mb-2 block">
+
+                                Your Message
+
+                            </label>
+
+                            <textarea rows="6" placeholder="Tell us about your requirements..."
+                                class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-4 text-white placeholder-gray-300 resize-none focus:border-[#D4A017] focus:outline-none"
+                                required></textarea>
+
+                        </div>
+
+                    </div>
+
+                    <div class="text-center mt-10">
+
+                        <button
+                            class="bg-[#D4A017] hover:bg-yellow-500 px-10 py-4 rounded-full text-white font-semibold text-lg transition duration-300 hover:scale-105 shadow-xl">
+
+                            Send Enquiry →
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--WHY CONTACT US-->
+    <section class="relative py-28 overflow-hidden">
+        <div class="absolute inset-0">
+
+            <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/90 to-white/95"></div>
+
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+                <!-- Left Side -->
+
+                <div>
+
+                    <span
+                        class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                        Why Contact Us
+
+                    </span>
+
+                    <h2 class="text-4xl md:text-6xl font-bold text-[#041B45] mt-8 leading-tight">
+
+                        Your Trusted Export
+
+                        <span class="block text-[#D4A017]">
+
+                            Business Partner
+
+                        </span>
+
+                    </h2>
+
+                    <p class="mt-8 text-gray-600 leading-9 text-lg">
+
+                        Whether you're looking for a reliable supplier of Big Onion,
+                        Small Onion, or Fresh Coconut, our experienced team is here
+                        to assist you with product information, pricing, packaging,
+                        documentation, and worldwide shipping support.
+
+                    </p>
+
+                    <div class="mt-12 space-y-8">
+
+                        <div class="flex items-start gap-5">
+
+                            <div
+                                class="w-12 h-12 rounded-full bg-[#D4A017] flex items-center justify-center text-white text-xl flex-shrink-0">
+
+                                ✓
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#041B45]">
+
+                                    Fast Response
+
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+
+                                    Our team responds quickly to export enquiries and quotations.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex items-start gap-5">
+
+                            <div
+                                class="w-12 h-12 rounded-full bg-[#041B45] flex items-center justify-center text-white text-xl flex-shrink-0">
+
+                                ✓
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#041B45]">
+
+                                    Export Guidance
+
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+
+                                    Complete assistance for product selection, packaging, and logistics.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex items-start gap-5">
+
+                            <div
+                                class="w-12 h-12 rounded-full bg-[#D4A017] flex items-center justify-center text-white text-xl flex-shrink-0">
+
+                                ✓
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#041B45]">
+
+                                    Customer First
+
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+
+                                    We focus on building long-term relationships through quality and trust.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div class="relative">
+
+                    <img src="images/hero2.jpg" class="rounded-[35px] shadow-2xl hover:scale-105 duration-700">
+
+                    <div class="absolute -bottom-8 -left-8 bg-[#041B45] rounded-[30px] p-8 shadow-2xl max-w-xs">
+
+                        <h3 class="text-4xl font-bold text-[#D4A017]">
+
+                            24×7
+
+                        </h3>
+
+                        <p class="text-white mt-3 leading-7">
+
+                            Dedicated support for export enquiries and customer assistance.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--LOCATION & MAP-->
+    <section class="relative py-28 overflow-hidden bg-[#041B45]">
+
+        <div class="absolute inset-0 opacity-10">
+
+            <img src="images/bg4.png" class="w-full h-full object-cover">
+
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-20">
+
+                <span
+                    class="inline-block bg-[#D4A017] text-white px-6 py-2 rounded-full tracking-[3px] uppercase text-sm font-semibold">
+
+                    Visit Our Office
+
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-bold text-white mt-8">
+
+                    Find Us On
+
+                    <span class="text-[#D4A017]">
+
+                        Google Maps
+
+                    </span>
+
+                </h2>
+
+                <p class="max-w-3xl mx-auto mt-6 text-lg text-gray-300 leading-8">
+
+                    We welcome business inquiries and export partnerships. Visit our office or get in touch with us for
+                    premium agricultural export solutions.
+
+                </p>
+
+            </div>
+
+            <div class="grid lg:grid-cols-5 gap-10 items-center">
+
+                <!-- Left -->
+
+                <div class="lg:col-span-2">
+
+                    <h3 class="text-3xl font-bold text-white">
+
+                        Hiranya Export Pvt Ltd
+
+                    </h3>
+
+                    <p class="text-[#D4A017] mt-3">
+
+                        Quality Produce. Global Trust.
+
+                    </p>
+
+                    <div class="mt-10 space-y-8">
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#D4A017] flex items-center justify-center text-white">
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-xl font-semibold text-white">
+
+                                    Office Address
+
+                                </h4>
+
+                                <p class="text-gray-300 mt-2 leading-7">
+
+                                    No.752, Thirukkattalai,<br>
+                                    Mettupatti, Alangudi,<br>
+                                    Pudukkottai,<br>
+                                    Tamil Nadu - 622303, India
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#D4A017] flex items-center justify-center text-white">
+
+                                <i class="fa-solid fa-phone"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-xl font-semibold text-white">
+
+                                    Phone
+
+                                </h4>
+
+                                <p class="text-gray-300 hover:text-[#D4A017] mt-2">
+
+                                    <a href="tel: +91 78679 93333">
+                                        +91 78679 93333
+                                    </a>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-14 h-14 rounded-full bg-[#D4A017] flex items-center justify-center text-white">
+
+                                <i class="fa-solid fa-envelope"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-xl font-semibold text-white">
+
+                                    Email
+
+                                </h4>
+
+                                <p class="text-gray-300 hover:text-[#D4A017] mt-2 break-all">
+
+                                    <a href="mail: hiranyaexportsprt@gmail.com">
+                                        hiranyaexportsprt@gmail.com
+                                    </a>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <a href="https://maps.google.com" target="_blank"
+                        class="inline-flex items-center gap-3 mt-12 bg-[#D4A017] hover:bg-yellow-500 text-white px-8 py-4 rounded-full font-semibold transition duration-300 hover:scale-105">
+
+                        Open In Google Maps
+
+                        <i class="fa-solid fa-location-arrow"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- Right -->
+
+                <div class="lg:col-span-3">
+
+                    <div class="rounded-[35px] overflow-hidden shadow-2xl border-4 border-white">
+
+                        <iframe src="https://www.google.com/maps?q=Alangudi,Pudukkottai,Tamil%20Nadu&output=embed"
+                            width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative bg-[#03153A] text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <div
+                class="absolute w-[500px] h-[500px] bg-white/20 rounded-full blur-3xl top-10 left-1/2 -translate-x-1/2">
+            </div>
+            <div class="absolute w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-3xl bottom-10 right-10"></div>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto px-6 py-20 text-center">
+
+            <!-- LOGO -->
+            <img src="images/nav-logo.png" class="h-32 mx-auto mb-4 ">
+
+            <!-- COMPANY NAME -->
+            <h2 class="text-3xl md:text-4xl font-bold">
+                Hiranya Export Pvt Ltd
+            </h2>
+
+            <p class="text-gray-300 mt-4 max-w-2xl mx-auto leading-7">
+                Premium Agricultural Export Company from India delivering high-quality
+                Big Onion, Small Onion, and Fresh Coconut across global markets with trust and excellence.
+            </p>
+
+            <!-- CONTACT ICONS -->
+            <div class="flex flex-wrap justify-center gap-10 mt-10 text-gray-300">
+
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-phone text-[#D4A017] text-2xl"></i>
+                    <span class="mt-2">
+                        <a href="tel:+917867993333" class="hover:text-[#D4A017]">
+                            +91 78679 93333
+                        </a>
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-envelope text-[#D4A017] text-2xl"></i>
+                    <span class="mt-2">
+                        <a href="mailto:hiranyaexportsprt@gmail.com" class="hover:text-[#D4A017]">
+                            hiranyaexportsprt@gmail.com
+                        </a>
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-location-dot text-[#D4A017] text-2xl"></i>
+                    <span class="mt-2 max-w-xs">
+                        No.752, Thirukkattalai, Pudukkottai, Tamil Nadu
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- LINKS -->
+            <div class="flex flex-wrap justify-center gap-6 mt-10 text-gray-300">
+
+                <a href="index.html" class="hover:text-[#D4A017]">Home</a>
+                <a href="about.html" class="hover:text-[#D4A017]">About</a>
+                <a href="products.html" class="hover:text-[#D4A017]">Products</a>
+                <a href="whyus.html" class="hover:text-[#D4A017]">Why Us</a>
+                <a href="contact.html" class="hover:text-[#D4A017]">Contact</a>
+
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="flex justify-center gap-5 mt-10">
+
+                <a href="#"
+                    class="w-12 h-12 rounded-full bg-white/10 hover:bg-[#D4A017] flex items-center justify-center transition">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#"
+                    class="w-12 h-12 rounded-full bg-white/10 hover:bg-[#D4A017] flex items-center justify-center transition">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#"
+                    class="w-12 h-12 rounded-full bg-white/10 hover:bg-[#D4A017] flex items-center justify-center transition">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://wa.me/917867993333"
+                    class="w-12 h-12 rounded-full bg-[#25D366] hover:scale-110 flex items-center justify-center transition">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="border-t border-white/10 mt-12 pt-6">
+
+                <p class="text-gray-400 text-sm">
+                    © 2026 Hiranya Export Pvt Ltd. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        const menu = document.getElementById("mobile-menu");
+        const open = document.getElementById("menu-btn");
+        const close = document.getElementById("close-menu");
+
+        open.onclick = () => {
+            menu.style.right = "0";
+        }
+
+        close.onclick = () => {
+            menu.style.right = "-100%";
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -87,9 +88,6 @@
                         <li><a href="whyus.html" class="text-gray-800 hover:text-yellow-600 duration-300">Why Us</a>
                         </li>
 
-                        <li><a href="gallery.html" class="text-gray-800 hover:text-yellow-600 duration-300">Gallery</a>
-                        </li>
-
                         <li><a href="contact.html" class="text-gray-800 hover:text-yellow-600 duration-300">Contact</a>
                         </li>
 
@@ -149,8 +147,6 @@
 
                     <li><a href="whyus.html" class="text-white hover:text-yellow-400">Why Us</a></li>
 
-                    <li><a href="gallery.html" class="text-white hover:text-yellow-400">Gallery</a></li>
-
                     <li><a href="contact.html" class="text-white hover:text-yellow-400">Contact</a></li>
 
                 </ul>
@@ -209,8 +205,12 @@ to-black/20"></div>
         </div>
 
         <!-- Content -->
+
+        <!-- Hero Content -->
         <div class="relative z-10 flex items-center justify-center min-h-screen pt-24 lg:pt-28 px-5">
             <div class="max-w-5xl mx-auto text-center">
+
+                <!-- Badge -->
                 <span
                     class="inline-block bg-[#D4A017] text-white px-7 py-3 rounded-full text-sm md:text-base font-semibold tracking-[3px] shadow-xl mt-10">
 
@@ -1287,22 +1287,6 @@ text-gray-200">
     <!-- Scripts -->
     <script>
 
-        const menu = document.getElementById("mobile-menu");
-        const open = document.getElementById("menu-btn");
-        const close = document.getElementById("close-menu");
-
-        open.onclick = () => {
-            menu.style.right = "0";
-        }
-
-        close.onclick = () => {
-            menu.style.right = "-100%";
-        }
-
-    </script>
-
-    <script>
-
         let slides = document.querySelectorAll(".slide");
 
         let current = 0;
@@ -1318,6 +1302,24 @@ text-gray-200">
         }, 5000);
 
     </script>
+
+
+    <script>
+
+        const menu = document.getElementById("mobile-menu");
+        const open = document.getElementById("menu-btn");
+        const close = document.getElementById("close-menu");
+
+        open.onclick = () => {
+            menu.style.right = "0";
+        }
+
+        close.onclick = () => {
+            menu.style.right = "-100%";
+        }
+
+    </script>
+
 
 </body>
 </html>
